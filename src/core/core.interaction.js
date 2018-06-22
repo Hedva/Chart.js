@@ -221,7 +221,7 @@ module.exports = {
 		/**
 		 * Point mode returns all elements that hit test based on the event position
 		 * of the event
-		 * @function Chart.Interaction.modes.intersect
+		 * @function Chart.Interaction.modes.point
 		 * @param chart {chart} the chart we are returning items from
 		 * @param e {Event} the event we are find things at
 		 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
@@ -233,7 +233,7 @@ module.exports = {
 
 		/**
 		 * nearest mode returns the element closest to the point
-		 * @function Chart.Interaction.modes.intersect
+		 * @function Chart.Interaction.modes.nearest
 		 * @param chart {chart} the chart we are returning items from
 		 * @param e {Event} the event we are find things at
 		 * @param options {IInteractionOptions} options to use
