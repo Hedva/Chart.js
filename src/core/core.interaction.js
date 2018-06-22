@@ -62,7 +62,7 @@ function getIntersectItems(chart, position) {
 }
 
 /**
- * Helper function to get the items nearest to the event position considering all visible items in teh chart
+ * Helper function to get the items nearest to the event position considering all visible items in the chart
  * @param chart {Chart} the chart to look at elements from
  * @param position {Point} the point to be nearest to
  * @param intersect {Boolean} if true, only consider items that intersect the position
@@ -221,7 +221,7 @@ module.exports = {
 		/**
 		 * Point mode returns all elements that hit test based on the event position
 		 * of the event
-		 * @function Chart.Interaction.modes.intersect
+		 * @function Chart.Interaction.modes.point
 		 * @param chart {chart} the chart we are returning items from
 		 * @param e {Event} the event we are find things at
 		 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
@@ -233,7 +233,7 @@ module.exports = {
 
 		/**
 		 * nearest mode returns the element closest to the point
-		 * @function Chart.Interaction.modes.intersect
+		 * @function Chart.Interaction.modes.nearest
 		 * @param chart {chart} the chart we are returning items from
 		 * @param e {Event} the event we are find things at
 		 * @param options {IInteractionOptions} options to use
